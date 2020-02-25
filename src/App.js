@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import './css/main.css';
+import './css/linearicons.css';
+import './css/font-awesome.min.css';
+import './css/bootstrap.css';
+import './css/magnific-popup.css';
+import './css/nice-select.css';
+import './css/animate.min.css';
+import './css/owl.carousel.css';
+import Header from './Components/Estaticos/Header/Header';
+import Footer from './Components/Estaticos/Footer/Footer';
+import Body from './Components/Estaticos/Body/Body'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <React.Fragment>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Body}/>
+        </Switch>
+        <Footer />
+      </React.Fragment>
+    </Router>
+    // <div className="App">
+    //   <Header/>
+    //   <Footer/>
+    // </div>
   );
 }
 
