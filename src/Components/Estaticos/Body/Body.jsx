@@ -1,25 +1,38 @@
 import React, { Component } from "react";
-import Hero from '../../../img/hero-img.png'
+import Hero from "../../../img/anzu-ng.png";
+import GoodLuck from "../../../img/Me.jpg"
+import "./Body.css";
 class Body extends Component {
   render() {
     return (
       <React.Fragment>
-        <section class="banner-area">
-          <div class="container">
-            <div class="row fullscreen align-items-center justify-content-between">
-              <div class="col-lg-6 col-md-6 banner-left">
-                <h6>Hola, que tal</h6>
-                <h1>Luis Roman</h1>
+        <section className="banner-area">
+          <div className="container">
+            <div className="div-texto">
+              <div>
+                <h1 className="name-h1">Luis Roman</h1>
+                <h3 className="name-h3">
+                  Desarrollador Web y Co-Fundador de Anzu Esports
+                </h3>
                 <p>
-                    Desarrollador Web con 3 años de experiencia, este es mi portafolio donde veras mis experiencias y tambien proyectos
-                    en los que eh estado trabajando, aparte de mi curriculum
+                  Que tal, mi nombre es Luis Roman, actualmente me dedico al
+                  desarrollo web y tambien a administrar mi propio proyecto
+                  llamado Anzu Esports, donde apostamos por el competitivo de
+                  League of Legends en Peru. La parte de navegacion a tu lado
+                  izquierdo puedes revisar mis repositorios y mi contacto, a su
+                  vez tambien de mi linkedin para futuros proyectos. Dale click
+                  aqui abajo para ver el instagram del proyecto que te acabo de
+                  mencionar
                 </p>
-                <a href="/" class="primary-btn text-uppercase">
-                    Click Aqui
+              </div>
+              <div className="div-imagen">
+                <a href="/" className="btn btn-white btn-animation-1">
+                  Click Aqui
                 </a>
               </div>
-              <div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
-                <img class="img-fluid" src={Hero} alt="" />
+              <div className="div-imagen2">
+                <img className="img-fluid" src={Hero} alt="" />
+                <img src={GoodLuck} alt=""/>
               </div>
             </div>
           </div>
