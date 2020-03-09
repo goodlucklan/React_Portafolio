@@ -1,7 +1,6 @@
 import React from "react";
 import './Header.css'
 import download from '../../Files/CV.pdf'
-// import Logo from '../../../img/logo.png'
 const Header = () => {
   return (
     <React.Fragment>
