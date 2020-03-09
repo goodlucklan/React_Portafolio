@@ -4,7 +4,7 @@ const Body = () => {
   return (
     <React.Fragment>
       <header>
-        <h1>Luis Roman</h1>
+        <h1>LUIS ROMAN</h1>
         <p>
           Web Developer & Co-Founder de Anzu Esports
           </p>

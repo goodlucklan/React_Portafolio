@@ -15,7 +15,7 @@ header::before{
 }
 header * {
   font-weight: normal;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.4em;
   text-align: center;
   color: white;
   margin: 0;

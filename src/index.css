@@ -12,6 +12,10 @@
     overflow-x: hidden;
     font-family: 'Open Sans';
   }
+  h1{
+    font-family: 'Gotham';
+    src: url('/src/fonts/GOTHAMBOOK.TTF');
+  }
   body::-webkit-scrollbar {
     width: 0.25rem;
   }
