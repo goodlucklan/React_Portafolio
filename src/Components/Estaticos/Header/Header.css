@@ -4,8 +4,7 @@
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/monohipster.otf);
 }
 .container{
-  margin: 1rem;
-  padding: 1rem;
+  max-width: 100px;
 }
 a:hover{
   text-decoration: none;
@@ -20,17 +19,17 @@ a:hover{
   background: -moz-linear-gradient(left, #2a2d35 0%, #353742 100%);
   background: -webkit-linear-gradient(left, #2a2d35 0%, #353742 100%);
   background: linear-gradient(to right, #2a2d35 0%, #353742 100%);
-  border-color: #404454 white black red;
+  border-color: #303a52 white black red;
   border-style: solid;
   border-width: 2px 0px 2px 0px;
-  color: #00FFAD;
+  color: #9e579d;
   cursor: pointer;
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2a2d35', endColorstr='#353742', GradientType=1);
   font-size: 35px;
   height: 76px;
   line-height: 76px;
   text-align: center;
-  text-shadow: 0px -2px 1px #23252B, 0px 2px 2px #23252B, 0px 0px 20px #049B6A;
+  text-shadow: 0px -2px 1px #23252B, 0px 2px 2px #23252B, 0px 0px 20px #8C5A8C;
   width: 80px;
 }
 
