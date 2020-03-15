@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 import Fade from "react-reveal/Fade";
 import about from '../../../img/about-img.png'
-import {Link} from 'react-router-dom';
 class About extends React.Component {
   render() {
     return (
@@ -18,7 +17,6 @@ class About extends React.Component {
           </p>
         </div>
         <div className="grid">
-          <Link to="/Pokemon">
           <div className="card">
             <img
               src={about}
@@ -32,7 +30,6 @@ class About extends React.Component {
               <p>Dale click al cuadro para que te lleve</p>
             </div>
           </div>
-          </Link>
         </div>
       </Fade>
     );
