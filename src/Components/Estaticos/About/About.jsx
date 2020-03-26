@@ -18,6 +18,7 @@ class About extends React.Component {
         </div>
         <div className="grid">
           <div className="card">
+            <a href="https://react-pokemon-theta.now.sh/">
             <img
               src={about}
               alt="Avatar"
@@ -29,6 +30,7 @@ class About extends React.Component {
               </h4>
               <p>Dale click al cuadro para que te lleve</p>
             </div>
+            </a>
           </div>
         </div>
       </Fade>
